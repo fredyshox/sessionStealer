@@ -1,3 +1,7 @@
+/**
+ * Copyright (c) 2018 Kacper Raczy
+ */
+
 var express = require('express')
 var session = require('express-session')
 var port = 1337
