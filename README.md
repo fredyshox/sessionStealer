@@ -3,10 +3,11 @@
 Script for stealing unecrypted web sessions.
 
 ## Usage
-Required parameters
+Required parameters:
 - path to \*.pcapng input file which contains sniffed http conversation
 - name of cookie used for session id
 - hostname
 ```
 $ python3 sessionSteal.py -H host.name -c cookie.name -i example.pcapng
 ```
+Simple http server for testing is also provided (nodejs required).
